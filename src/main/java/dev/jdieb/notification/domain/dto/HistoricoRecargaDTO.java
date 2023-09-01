@@ -1,7 +1,6 @@
 package dev.jdieb.notification.domain.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-
 import lombok.Data;
 
 @Data
@@ -18,5 +17,4 @@ public class HistoricoRecargaDTO {
 	@JsonProperty(value = "LastValue")
 	private int LastValue;
 
-	
 }
